@@ -1,0 +1,54 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Playstation 4 Pro",
+      "price": 439.99
+    },
+    {
+      "id": 2,
+      "name": "Nintendo Switch",
+      "price": 329.99
+    },
+    {
+      "id": 3,
+      "name": "Xbox One S",
+      "price": 299.99
+    },
+    {
+      "id": 4,
+      "name": "Nintendo Switch Lite",
+      "price": 219.99
+    },
+    {
+      "id": 5,
+      "name": "Playstation 4 Slim",
+      "price": 299.99
+    },
+    {
+      "id": 6,
+      "name": "Mega Drive Mini",
+      "price": 79.99
+    },
+    {
+      "id": 7,
+      "name": "Nintendo Classic Mini",
+      "price": 89.99
+    },
+    {
+      "id": 8,
+      "name": "Nintendo 2DS XL",
+      "price": 155.99
+    },
+    {
+      "id": 9,
+      "name": "Nintendo 2DS",
+      "price": 99.99
+    },
+    {
+      "id": 10,
+      "name": "Xbox One X",
+      "price": 499.99
+    }
+  ]
+}

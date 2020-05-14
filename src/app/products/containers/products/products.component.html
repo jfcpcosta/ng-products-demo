@@ -1,0 +1,14 @@
+<a href="javascript:void(0)" [routerLink]="[0, 'edit']" mat-raised-button>Add</a>
+
+<div class="products">
+    <div *ngFor="let product of products$ | async" class="product-container">
+        <mat-card>
+            <mat-card-title>{{ product.name }}</mat-card-title>
+            <mat-card-subtitle>{{ product.price | currency:'EUR' }}</mat-card-subtitle>
+        
+            <mat-card-actions>
+                <a href="javascript:void(0)" mat-button [routerLink]="[product.id]">Details</a>
+            </mat-card-actions>
+        </mat-card>
+    </div>
+</div>

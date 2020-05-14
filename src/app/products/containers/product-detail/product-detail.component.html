@@ -1,0 +1,8 @@
+<mat-card>
+    <mat-card-title>{{ product?.name }}</mat-card-title>
+    <mat-card-subtitle>{{ product?.price | currency:'EUR' }}</mat-card-subtitle>
+
+    <mat-card-actions>
+        <button mat-button (click)="delete()">Delete</button>
+    </mat-card-actions>
+</mat-card>
